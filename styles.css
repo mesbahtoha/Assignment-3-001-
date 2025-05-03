@@ -1,0 +1,50 @@
+.adlam-display-font {
+    font-family: "ADLaM Display", system-ui;
+  }
+  .sora-font{
+    font-family: "Sora", sans-serif;
+  }
+  .btn-1{
+    width: 85px;
+    height: 28px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 220, 38);
+    border-radius: 6px;
+    
+}
+.btn-2{
+    width: 107px;
+    height: 28px;
+    
+    background: rgb(255, 220, 38);
+    border-radius: 6px;
+}
+nav{
+    background: rgb(255, 249, 244);
+}
+section{
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.cat-img{
+    margin-top: -330px;
+    padding-left: 230px;
+}
+
+/* Responsive media query */
+@media screen and (max-width: 1023.33px) {
+    .hide{
+        display: none;
+    }
+    section{
+        padding-left: 7%;
+    }
+    .cat-img{
+        margin-left: -230px;
+        margin-top: -100px;
+    }
+    nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
