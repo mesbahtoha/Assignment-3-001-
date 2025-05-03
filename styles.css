@@ -30,6 +30,49 @@ section{
     margin-top: -330px;
     padding-left: 230px;
 }
+.dog{
+    border-radius: 9px;
+    background: rgb(249, 223, 138);
+   width: 124px;
+   height: 140px;
+   padding-left: 34px;
+  padding-top: 20px;
+}
+.dog>img{
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 7%;
+    /* margin:0 auto ; */
+    
+    
+}
+.dog>h1{
+    font-family: ADLaM Display;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0%;
+margin-top: 10px;
+padding-left: 10px;
+}
+.dog>p{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-top: 6px;
+    
+}
+.second-page{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 80px;
+    
+}
+.second-head{
+    margin-bottom: 40px;
+   
+}
 
 /* Responsive media query */
 @media screen and (max-width: 1023.33px) {
@@ -46,5 +89,17 @@ section{
     nav{
         padding-left: 5%;
         padding-right: 5%;
+    }
+    .second-page{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+    .Toha{
+        margin-left: 16%; 
+         margin-right: 13%; 
+    }
+    .second-head{
+        margin-left: 7%;
     }
 }
