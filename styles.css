@@ -10,12 +10,10 @@
     box-sizing: border-box;
     border: 1px solid rgb(255, 220, 38);
     border-radius: 6px;
-    
 }
 .btn-2{
     width: 107px;
     height: 28px;
-    
     background: rgb(255, 220, 38);
     border-radius: 6px;
 }
@@ -44,9 +42,6 @@ section{
     width: 50px;
     height: 50px;
     padding: 7%;
-    /* margin:0 auto ; */
-    
-    
 }
 .dog>h1{
     font-family: ADLaM Display;
@@ -61,17 +56,17 @@ padding-left: 10px;
     font-size: 14px;
     color: rgb(0, 0, 0);
     margin-top: 6px;
-    
 }
 .second-page{
-    padding-left: 140px;
-    padding-right: 140px;
+    /* padding-left: 140px;
+    padding-right: 140px; */
     padding-top: 80px;
     margin-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .second-head{
     margin-bottom: 40px;
-   
 }
 .fourth-page-head{
     color: rgb(17, 17, 17);
@@ -94,8 +89,6 @@ margin-bottom: 50px;
     height: 368px;
     border-radius: 8px;
     background: rgb(249, 223, 138);
-    
-    
 }
 .mesbah{
     padding: 10%;
@@ -103,7 +96,6 @@ margin-bottom: 50px;
 .small-pet{
     margin-top: -140px;
     margin-left: 80px;
-    
 }
 .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9, .card-10{
     box-sizing: border-box;
@@ -149,8 +141,7 @@ padding: 10px;
     grid-template-areas: 
     "pet-small card-2 card-3 card-4"
     "pet-small card-5 card-6 card-7"
-    "pet-small card-8 card-9 card-10"
-    ;
+    "pet-small card-8 card-9 card-10";
     align-items: center;
 }
 main{
@@ -173,7 +164,6 @@ padding-left: 5%;
 height: 480px;
 padding-top: 3%;
 padding-left: 12%;
-
 }
 .fifth-page{
     border-radius: 11px;
@@ -181,18 +171,47 @@ padding-left: 12%;
     padding: 3%;
     padding-top: 50px;
     padding-bottom: 45px;
-    
+    margin: 5%;
+    margin: 5%;
+    position: relative;
+  z-index: 2;
 }
 .fifth-page input{
     border-radius: 5px;
     background: rgb(255, 255, 255);
     width: 312px;
 height: 42px;
-
 }
-
-
-
+footer{
+    background-color: rgba(255, 220, 38, 0.5);
+    padding-top: 300px;
+    padding-bottom: 100px;
+    margin-top: -300px;
+    position: relative;
+  z-index: 1;
+  margin-bottom: -100px;
+  margin-left: -80px;
+  margin-right: -80px;
+}
+#falcon{
+    margin: 20px auto;
+}
+.bounce-btn {
+    animation: bounce 2s infinite;
+    background: rgb(255, 220, 38);
+    color: black;
+    border: none;
+    border-radius: 12px;
+    width: 140px;
+    height: 40px;
+    -webkit-animation: bounce 2s infinite;
+}
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    60% {transform: translateY(-7px);}
+  }
 /* Responsive media query */
 @media screen and (max-width: 1023.33px) {
     .hide{
@@ -221,29 +240,27 @@ height: 42px;
     .second-head{
         margin-left: 7%;
     }
-    
-
     .container {
-        /* display: grid; */
         grid-template-areas: 
            "pet-small card-10"
            "card-2 card-3"
            "card-4 card-5"
            "card-6 card-7"
            "card-8 card-9";
-           /* column-gap: 5px; */
            row-gap: 20px;
     }
     .card-3,.card-5,.card-7,.card-9{
         margin-left: -150px;
         text-align: center;
-        /* width: 100%; */
-        width: 190px;
+        width: 187px;
+    }
+    .card-2,.card-4,.card-6,.card-8{
+        width: 187px;
     }
     .pet-small{
         margin-left: 5%;
         align-items: center;
-        /* width: 100%; */
+        width: 100%;
     }
    #alam{
     display: none;
@@ -263,13 +280,18 @@ height: 42px;
    }
    .fifth-page{
     justify-content: center;
-    width: 100%;
+    width: 95%;
+    margin: 0%;
     margin-top: 80px;
     text-align: center;
+    margin: 50px auto;
    }
    .fifth-page img{
     margin: 0 auto;
    }
+   footer{
+    padding-left: 15%;
+    width: 100%;
+    margin-left: 0px;
+   }
 }
-
-
