@@ -175,6 +175,22 @@ padding-top: 3%;
 padding-left: 12%;
 
 }
+.fifth-page{
+    border-radius: 11px;
+    background: rgb(255, 249, 244);
+    padding: 3%;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    
+}
+.fifth-page input{
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 312px;
+height: 42px;
+
+}
+
 
 
 /* Responsive media query */
@@ -243,6 +259,15 @@ padding-left: 12%;
    }
    .c{
     width: 100%;
+   }
+   .fifth-page{
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+   }
+   .fifth-page img{
+    margin: 0 auto;
    }
 }
 
